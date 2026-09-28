@@ -1,50 +1,60 @@
-# 🛍️ Lumina - Modern E-Commerce Platform for Physical Products
+# 🔥 LOLO LMT - Trendy & Affordable Mobile Accessories Storefront
 
-[![Lumina Store Banner](https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80)](https://github.com/nizalabduljmp/Lumina)
+[![LOLO LMT Storefront Banner](https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=1200&q=80)](https://github.com/nizalabduljmp/Lumina)
 
-**Lumina Store** is a modern, responsive e-commerce web application designed for selling physical products. Built with Vanilla JavaScript, HTML5, CSS3, Google Fonts (*Plus Jakarta Sans*), and Lucide Icons.
+**LOLO LMT** is an energetic, vibrant, mobile-first e-commerce storefront designed for selling affordable and stylish mobile accessories in India (Priced strictly between **₹99** and **₹499**).
 
 ---
 
-## ✨ Features
+## ✨ Features & Capabilities
 
-- **🏠 Home Page**: Hero section, value propositions, category grid, featured products, new arrivals, best sellers, promotional banner, customer reviews, and newsletter subscription.
-- **🛍️ Shop Page**: Responsive product grid with real-time text search, category filtering, max price range slider, rating filters, in-stock toggle, and sorting options.
-- **🔍 Product Details**: Thumbnail image gallery selector, price & discount badges (`SAVE 17%`), detailed specifications table, quantity selector, `Add to Cart`, `Buy Now`, `Wishlist` heart toggle, customer reviews list, and write-a-review form.
-- **🛒 Shopping Bag**: Quantity modifiers (`+`/`-`), free shipping progress tracker ($150 threshold), coupon code engine (`LUMINA10` & `WELCOME20`), subtotal/discount/shipping calculation, and empty cart state.
-- **💳 Multi-Step Checkout & Order Confirmation**: Form validation for customer info, shipping address, delivery options (*Standard* vs *Express*), payment options (*Credit Card*, *PayPal*, *COD*), and order confirmation page with order reference IDs.
-- **❤️ Wishlist View**: Saved items grid with move-to-bag and removal options.
-- **💬 About & Contact Pages**: Brand story, mission, company statistics, contact form, and interactive **FAQ Accordion**.
-- **⚙️ Store Admin Dashboard**: Sales stats overview cards, Catalog Management (**Add Product** & **Edit Product** modals, delete product), and Customer Orders table with real-time status updates (*Processing*, *Shipped*, *Delivered*, *Cancelled*).
+- **⚡ Trendy Branding & Vibrant Palette**: Vibrant purple, electric blue, pink, orange, and yellow aesthetic with smooth gradient backgrounds and glassmorphism headers.
+- **📱 Mobile-First Responsive Design**: Optimized UI drawer navigation, touch controls, and product cards designed for youth & smartphone shoppers.
+- **🏠 Hero & Crazy Deals Banner**: Headline *"Upgrade Your Mobile. Upgrade Your Style. 🔥"*, real-time countdown timer (`05 : 42 : 18`), and promotional tier offers starting @ ₹99.
+- **📦 8 Core Categories**:
+  1. 📱 Phone Cases
+  2. 🔌 Chargers
+  3. ⚡ Charging Cables
+  4. 🎧 Earphones & Earbuds
+  5. 🎮 Gaming Accessories
+  6. 📱 Phone Stands
+  7. 🔊 Speakers
+  8. ✨ Mobile Gadgets
+- **🔥 Best Sellers & Flash Sale**: Highlighting popular products with urgency progress bars (`🔥 78% SOLD OUT`).
+- **🛍️ Complete Shop Page & Filtering**: Category filter, budget price range selector (Under ₹99, ₹99–₹199, ₹199–₹299, ₹299–₹399, ₹399–₹499), rating filter, and live sorting engine.
+- **🔥 Dedicated Offers Zone**: Price tier collections + **Buy More, Save More** multi-buy automatic discounts (Buy 2 → 5% OFF, Buy 3 → 10% OFF, Buy 5+ → 15% OFF).
+- **🛒 Shopping Bag & Coupon Engine**: Live Indian Rupee (₹) calculations, free delivery tracker above ₹499, and coupon code support (`LOLO10` & `WELCOME50`).
+- **💳 Indian Checkout Flow**: Full Name, Mobile (+91), Delivery address, UPI (GPay, PhonePe, Paytm), Cards, Cash on Delivery (COD), and Order Confirmation screen (`🎉 Order Placed Successfully!`).
+- **⚙️ Store Admin Dashboard**: Sales metrics overview in ₹, Catalog Management (Add/Delete products), and Customer Order status management.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3 (Vanilla design system with CSS custom properties, glassmorphism, responsive grid), JavaScript (ES6+ state engine)
-- **Typography**: Google Fonts (*Plus Jakarta Sans*)
-- **Icons**: Lucide Icons (SVG)
-- **Persistence**: `localStorage` (Cart, Wishlist, Products, Orders, Coupons)
+- **Frontend**: HTML5, Vanilla CSS3 (Custom properties, CSS Grid, Glassmorphism), JavaScript (ES6+ AppState Engine)
+- **Typography**: `Plus Jakarta Sans` (Google Fonts)
+- **Icons**: Lucide Icons
+- **Persistence**: `localStorage` (Products, Cart, Wishlist, Orders, Coupons)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run Locally
 
-1. Clone the repository:
+1. Clone or pull the repository:
    ```bash
    git clone https://github.com/nizalabduljmp/Lumina.git
    cd Lumina
    ```
 
-2. Open `index.html` directly in your browser, or start the local PowerShell server:
+2. Run local PowerShell HTTP server:
    ```powershell
    powershell -ExecutionPolicy Bypass -File server.ps1
    ```
 
-3. Visit `http://localhost:8080/` in your browser.
+3. Open `http://localhost:8080/` in your browser.
 
 ---
 
 ## 📄 License
 
-MIT License &copy; 2026 Lumina Store Inc.
+MIT License &copy; 2026 LOLO LMT Inc.
